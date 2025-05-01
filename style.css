@@ -69,10 +69,14 @@ body {
     text-align: center;
     transition: background-color 0.2s;
     font-size: 0.95em;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   }
   
   .category-card li a:hover {
     background-color: #005fa3;
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
   }
   
   .button {
@@ -83,13 +87,16 @@ body {
     font-size: 1rem;
     border-radius: 8px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
     width: 100%;
     max-width: 400px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
   }
   
   .button:hover {
     background-color: #005fa3;
+    transform: scale(1.05);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.1);
   }
   
   .back-btn {
