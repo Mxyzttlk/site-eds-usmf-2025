@@ -1,0 +1,114 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f2f6fa;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #004b8d;
+    margin-bottom: 40px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .category-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    width: 100%;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  .category-card h2 {
+    margin-top: 0;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    color: #0077cc;
+  }
+  
+  .category-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 10px;
+  }
+  
+  .category-card li a {
+    text-decoration: none;
+    background-color: #0077cc;
+    color: #fff;
+    padding: 10px 12px;
+    border-radius: 6px;
+    display: block;
+    text-align: center;
+    transition: background-color 0.2s;
+    font-size: 0.95em;
+  }
+  
+  .category-card li a:hover {
+    background-color: #005fa3;
+  }
+  
+  .button {
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .button:hover {
+    background-color: #005fa3;
+  }
+  
+  .back-btn {
+    background-color: #e63946;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 25px;
+  
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .back-btn:hover {
+    background-color: #c62828;
+    transform: scale(1.03);
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
