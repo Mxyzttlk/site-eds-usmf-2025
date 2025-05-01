@@ -191,3 +191,9 @@ body {
   background-color: #00695c;
   transform: scale(1.05);
 }
+
+@media (max-width: 1920px) {
+  html, body {
+    overflow-y: auto;
+  }
+}
