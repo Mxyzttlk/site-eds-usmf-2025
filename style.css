@@ -3,7 +3,7 @@ html, body {
   padding: 0;
   height: 100%;
   min-height: 100vh;
-  overflow-y: hidden;
+  overflow-y: auto;
 }
 
 html {
@@ -135,9 +135,6 @@ body {
     to { opacity: 1; transform: translateY(0); }
   }
   @media (max-width: 600px) {
-    html, body {
-      overflow-y: auto;
-    }
     body {
       padding: 10px;
     }
@@ -190,10 +187,4 @@ body {
 .footer-button button:hover {
   background-color: #00695c;
   transform: scale(1.05);
-}
-
-@media (max-width: 1920px) {
-  html, body {
-    overflow-y: auto;
-  }
 }
