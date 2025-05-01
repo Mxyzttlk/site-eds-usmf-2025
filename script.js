@@ -137,4 +137,8 @@
     document.getElementById("subcategory-container").classList.add("hidden");
     document.getElementById("category-container").classList.remove("hidden");
   }
+
+  function contactAdmin() {
+    window.open("https://t.me/+WlVOodST5FdhNjky", "_blank");
+  }
   
