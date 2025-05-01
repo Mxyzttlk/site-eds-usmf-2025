@@ -41,7 +41,7 @@
     "Nefrologie": {
       "1-50": "https://onlinetestpad.com/6yvxtshwotzo4",
       "51-100": "https://onlinetestpad.com/zmq5oc5apphse",
-      "101-150": "https://onlinetestpad.com/iqdkqbi7ewaj",
+      "101-150": "https://onlinetestpad.com/iqdkqbi7ewajg",
       "151-200": "https://onlinetestpad.com/63f4cn2nwve34",
       "201++": "https://onlinetestpad.com/jvf74pbmgzxqm"
     },
