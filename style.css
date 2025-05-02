@@ -136,13 +136,14 @@ body {
       }
     
     body {
-      margin-top: 50px;
+      margin-top: 40px;
       padding: 10px;
     }
   
     h1 {
       font-size: 1.5rem;
       margin-bottom: 20px;
+      border-bottom: 10px;
     }
   
     .category-card ul {
@@ -164,9 +165,7 @@ body {
       padding: 8px 16px;
       font-size: 0.9rem;
     }
-    .aboutSite{
-      margin-top: 50px;
-    }
+
   }
 
   .footer-button {
