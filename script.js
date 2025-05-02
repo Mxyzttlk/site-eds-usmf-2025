@@ -141,4 +141,11 @@
   function contactAdmin() {
     window.open("https://t.me/+WlVOodST5FdhNjky", "_blank");
   }
+
+  function aboutSite() {
+    window.location.href = "aboutSite.html";
+  }
   
+  function home() {
+    window.location.href = "index.html";
+  }
