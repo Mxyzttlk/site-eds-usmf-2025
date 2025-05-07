@@ -25,12 +25,14 @@ body {
   }
   
   .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid; /* Folosim grid pentru a aranja butoanele */
+    grid-template-columns: repeat(1, 1fr); /* Pe desktop, 1 coloană */
     gap: 20px;
     max-width: 800px;
-    margin: auto;
+    margin: 20px auto; /* Asigură că containerul este centrat pe orizontală */
+    padding: 20px; /* Adaugă puțin spațiu la margini */
+    justify-items: center; /* Centrează butoanele pe axa orizontală */
+    align-items: center; /* Centrează butoanele pe axa verticală */
   }
   
   .category-card {
@@ -124,13 +126,13 @@ body {
   
   .hidden {
     display: none;
-  }
-  
+  }  
+
   @keyframes fadeIn {
     from { opacity: 0; transform: translateY(10px); }
     to { opacity: 1; transform: translateY(0); }
   }
-  @media (max-width: 600px) {
+  @media (max-width: 1024px) {
     html, body {
       height: 100%;
       }
