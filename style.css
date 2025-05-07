@@ -147,8 +147,8 @@ body {
     }
   
     .category-card ul {
-      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-      gap: 8px;
+      grid-template-columns: repeat(2, 1fr);  /* Împărțire în două coloane pentru mobil */
+      gap: 10px;  /* Ajustează distanța dintre coloane */
     }
   
     .category-card li a {
