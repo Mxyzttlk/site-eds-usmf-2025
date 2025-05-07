@@ -132,9 +132,10 @@ body {
     from { opacity: 0; transform: translateY(10px); }
     to { opacity: 1; transform: translateY(0); }
   }
-  @media (max-width: 1024px) {
+  @media (max-width: 1366px) {
     html, body {
       height: 100%;
+      overflow: hidden; /* Ascunde bara de scroll pe întreaga pagină */
       }
     
     body {
