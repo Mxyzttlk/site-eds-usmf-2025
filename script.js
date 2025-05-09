@@ -105,22 +105,23 @@
       "351-400": "https://onlinetestpad.com/5d7libl2zeuug",
       "401++": "https://onlinetestpad.com/paptlxdeeqimy",
       "Toate": "https://onlinetestpad.com/ub7qgpjucyqvi"
-    }
+    },
   };
   
   // Creează butoanele pentru categorii
   window.onload = function () {
     const container = document.getElementById("category-container");
   
-    Object.keys(DATA).forEach(cat => {
-      const btn = document.createElement("button");
-      btn.className = "button";
-      btn.textContent = cat;
-      btn.onclick = () => showSubcategories(cat);
-      container.appendChild(btn);
-    });
-  };
-  
+   Object.keys(DATA).forEach((cat, index) => {
+  const btn = document.createElement("button");
+  btn.classList.add("button"); // NU .className = ...
+  if (index === 11) btn.classList.add("red-button"); // doar al 12-lea
+  btn.textContent = cat;
+  btn.onclick = () => showSubcategories(cat);
+  container.appendChild(btn);
+  });
+  }
+
   function showSubcategories(category) {
     const catDiv = document.getElementById("category-container");
     const subDiv = document.getElementById("subcategory-container");

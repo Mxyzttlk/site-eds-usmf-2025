@@ -100,7 +100,16 @@ body {
     transform: scale(1.05);
     box-shadow: 0 6px 14px rgba(0,0,0,0.1);
   }
-  
+   
+  .red-button {
+  background-color: #e53935; /* roșu intens */
+  color: white;
+  }
+
+  .red-button:hover {
+  background-color: #c62828;
+  }
+
   .back-btn {
     background-color: #e63946;
     color: white;
