@@ -4,9 +4,9 @@
       "51-100": "https://onlinetestpad.com/aqn7d6uzx64a6",
       "101-150": "https://onlinetestpad.com/c6zemeat6a7mu",
       "151-200": "https://onlinetestpad.com/llohvmxlso4b6",
-      "201-250": "https://onlinetestpad.com/inb4rqilvefm4",
-      "251-300": "https://onlinetestpad.com/cj3l3pvf4vuha",
-      "301++": "https://onlinetestpad.com/ok3b5ehisolt6",
+      "201++": "https://onlinetestpad.com/inb4rqilvefm4",
+      //"251-300": "https://onlinetestpad.com/cj3l3pvf4vuha",
+      //"301++": "https://onlinetestpad.com/ok3b5ehisolt6",
       "Toate": "https://onlinetestpad.com/77e5deddqrqfq"
     },
     "Cardiologie": {
